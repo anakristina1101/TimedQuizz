@@ -11,3 +11,52 @@ body {
 #intro {
   font-family: "Fredericka the Great", cursive;
 }
+*, *::before, *::after{
+  box-sizing: border-box;
+  font-family:"Fredericka the Great", cursive;
+}
+#question {
+  color: black;
+}
+.container {
+  
+  width: 800px;
+  background-color:orange;
+  border-radius: 5px;
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+
+}
+.btn-grid{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+.btn:hover{
+  border-color: black;
+}
+
+#progressContainer{
+  width: 50%;
+  background-color: #ddd;
+  
+  margin-left: 180px;
+}
+
+#progress{
+  width: 4%;
+  height: 30px;
+  background-color: grey
+}
+.start-btn, .next-btn{
+  font-weight: bold;
+}
+
+
+.hide {
+  display: none;
+
+}
