@@ -17,6 +17,7 @@ body {
 }
 #question {
   color: black;
+  font-weight: bold;
 }
 .container {
   
@@ -39,14 +40,14 @@ body {
   border-color: black;
 }
 
-#progressContainer{
+#timerContainer{
   width: 50%;
   background-color: #ddd;
   
   margin-left: 180px;
 }
 
-#progress{
+#timer{
   width: 4%;
   height: 30px;
   background-color: grey
