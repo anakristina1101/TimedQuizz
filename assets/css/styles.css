@@ -40,18 +40,6 @@ body {
   border-color: black;
 }
 
-#timerContainer{
-  width: 50%;
-  background-color: #ddd;
-  
-  margin-left: 180px;
-}
-
-#timer{
-  width: 4%;
-  height: 30px;
-  background-color: grey
-}
 .start-btn, .next-btn{
   font-weight: bold;
 }

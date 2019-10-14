@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width=, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quizz</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <br/>
+    <br/>
+    <div class="row">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6">
+        <h1 class="title">How well do you Halloween?</h1>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+
+    <br/>
+    
+    <div id="intro">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8"  class="introParagraph">
+          <h2>
+            All Hallos Eve is nearly here, but do you know what there is to
+            really fear? Answer these Halloween and Horror trivia questions and
+            get them right. Or else you will see what really goes bump in the night!
+          </h2>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+    </div>
+    
+
+        <div class="container" class= "hide">
+                <div id="question-container" class="hide">
+               <h3><div id="question">Question</div></h3>
+                <div id="answer-buttons" class="btn-grid">
+                    <button id="a" class="btn">Answer A</button>
+                    <button id="b" class="btn">Answer B</button>
+                    <button id="c" class="btn">Answer C</button>
+                    <button id="d" class="btn">Answer D</button>
+                </div>
+                <button type="button" id="next-btn"  class="btn btn-secondary">
+                    Next</button>
+                    <br/>
+                    <br/>
+                    
+            </div>
+            <div class="hide" id= "countDownContainer" >
+            <h2> Seconds Left:<div  id="countDown"> 15 </div></h2>
+            </div>
+        </div>   
+    <br/>
+    <div class= "controls">
+    <button type="button" id="start-btn" class="btn btn-outline-warning">
+      Enter if you Dare and Start Quizz</button>
+      <button type="button" id="next-btn" class="hide" class="btn btn-outline-warning">
+         Next</button>  
+
+
+    <br />
+    <br />
+
+    <div>
+      <img
+        src="./assets/images/jackOLantern.jpg"
+        alt="jackolanterdisplay"
+        width="650"
+        height="300"
+      />
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
